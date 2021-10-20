@@ -26,6 +26,7 @@ Creating a node module from scratch by : Jaswant Chaudhary
                                                                   ],
                                                                   "profile": { "name": "typicode" }
                                                                 }
+  
 #STEP:8 -> Now run the following command into your terminal : < json-server --watch db.json > 
   
 #NOTE : If above command of STEP:8 Doesn't work then run the following command : < npx json-server --watch db.json >
