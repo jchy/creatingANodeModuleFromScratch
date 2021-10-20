@@ -9,15 +9,15 @@ Creating a node module from scratch by : Jaswant Chaudhary
   
 #STEP:4 -> ### Once you will run above command it will ask you the name of package file, give it a name : <package.json>
   
-#STEP:5 -> ### Now it will ask you so many permission, just keep pressing enter button
+#STEP:6 -> ### Now it will ask you so many permission, just keep pressing enter button
   
-#STEP:5 -> ### Now run the following command : <npm install -g json-server> 
+#STEP:7 -> ### Now run the following command : <npm install -g json-server> 
   
-#NOTE: If above command of STEP:5 Doesn't work, then run the following command <npm install json-server>
+#NOTE: If above command of STEP:5 Doesn't work, then run the following command : < npm install json-server >
 
-#STEP:6 -> ### Now create a file named : < db.json> , inside the parent directory <CreateNodeModuleProject>
+#STEP:8 -> ### Now create a file named : < db.json> , inside the parent directory <CreateNodeModuleProject>
 
-#STEP:7 -> Now put this structire inside the < db.json > file :
+#STEP:9 -> Now put this structire inside the < db.json > file :
                                                                 {
                                                                 
                                                                    "posts": [
@@ -36,11 +36,11 @@ Creating a node module from scratch by : Jaswant Chaudhary
                                                                 
                                                                     }
   
-#STEP:8 -> Now run the following command into your terminal : < json-server --watch db.json > 
+#STEP:10 -> Now run the following command into your terminal : < json-server --watch db.json > 
   
 #NOTE : If above command of STEP:8 Doesn't work then run the following command : < npx json-server --watch db.json >
 
-#STEP:9 -> Now if you go to http://localhost:3000/posts/1, you'll get the following outPut : 
+#STEP:11 -> Now if you go to http://localhost:3000/posts/1, you'll get the following outPut : 
 
                     { "id": 1, "title": "json-server", "author": "typicode" }
 
