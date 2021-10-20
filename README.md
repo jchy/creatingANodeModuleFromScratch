@@ -13,7 +13,7 @@ Creating a node module from scratch by : Jaswant Chaudhary
   
 #STEP:7 -> ### Now run the following command : <npm install -g json-server> 
   
-#NOTE: If above command of STEP:5 Doesn't work, then run the following command : < npm install json-server >
+#NOTE: If above command of STEP:7 Doesn't work, then run the following command : < npm install json-server >
 
 #STEP:8 -> ### Now create a file named : < db.json> , inside the parent directory <CreateNodeModuleProject>
 
@@ -38,7 +38,7 @@ Creating a node module from scratch by : Jaswant Chaudhary
   
 #STEP:10 -> Now run the following command into your terminal : < json-server --watch db.json > 
   
-#NOTE : If above command of STEP:8 Doesn't work then run the following command : < npx json-server --watch db.json >
+#NOTE : If above command of STEP:10 Doesn't work then run the following command : < npx json-server --watch db.json >
 
 #STEP:11 -> Now if you go to http://localhost:3000/posts/1, you'll get the following outPut : 
 
