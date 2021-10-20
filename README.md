@@ -17,15 +17,24 @@ Creating a node module from scratch by : Jaswant Chaudhary
 
 #STEP:6 -> ### Now create a file named : < db.json> , inside the parent directory <CreateNodeModuleProject>
 
-#STEP:7 -> Now put this structire inside the < db.json > file : {
-                                                                  "posts": [
-                                                                    { "id": 1, "title": "json-server", "author": "typicode" }
-                                                                  ],
-                                                                  "comments": [
-                                                                    { "id": 1, "body": "some comment", "postId": 1 }
-                                                                  ],
-                                                                  "profile": { "name": "typicode" }
-                                                                }
+#STEP:7 -> Now put this structire inside the < db.json > file :
+                                                                {
+                                                                
+                                                                   "posts": [
+                                                                    
+                                                                              { "id": 1, "title": "json-server", "author": "typicode" }
+                                                                  
+                                                                    ],
+                                                                  
+                                                                    "comments": [
+                                                                   
+                                                                                { "id": 1, "body": "some comment", "postId": 1 }
+                                                                  
+                                                                     ],
+                                                                  
+                                                                      "profile": { "name": "typicode" }
+                                                                
+                                                                    }
   
 #STEP:8 -> Now run the following command into your terminal : < json-server --watch db.json > 
   
